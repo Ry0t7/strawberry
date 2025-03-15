@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="jp">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Strawberry</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="./src/css/style.css">
+        <link rel="stylesheet" href="./src/css/responsive.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-left">
+                <a href="#" class="logo">Strawberry</a>
+            </div>
+            <div class="header-right" id="navArea">
+                <nav>
+                    <div class="nav-inner">
+                        <ul class="nav-lists">
+                            <li class="nav-list">
+                                <a href="#" class="nav-btn">
+                                    Text
+                                </a>
+                            </li>
+                            <li class="nav-list">
+                                <a href="#" class="nav-btn">
+                                    Text
+                                </a>
+                            </li>
+                            <li class="nav-list">
+                                <a href="#" class="nav-btn">
+                                    Text
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                
+                <div class="toggle-btn">
+                    <span class="toggle-border"></span>
+                    <span class="toggle-border"></span>
+                </div>
+                
+                <div id="mask"></div>
+            </div>
+        </header>
+        <main>
+            <section id="loading">
+                <div class="wrapper">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="shadow"></div>
+                    <div class="shadow"></div>
+                    <div class="shadow"></div>
+                    <span>Loading</span>
+                </div>
+            </section>
+            <section class="hero">
+                <video src="./src/video/strawberry-mov.mp4" class="hero-movie" playsinline autoplay muted loop></video>
+                <h1 class="hero-head">Strawberry</h1>
+            </section>
+            <section class="normal">
+                <div class="normal-container">
+                    <h2 class="normal-head">normal</h2>
+                    <div class="normal-inner">
+                        <img src="./src/img/strawberry1.jpg" alt="" class="normal-img j1">
+                        <img src="./src/img/strawberry2.jpg" alt="" class="normal-img j2">
+                        <img src="./src/img/strawberry3.jpg" alt="" class="normal-img j3">
+                    </div>
+                </div>
+            </section>
+            <section class="arrange">
+                <div class="arrange-container">
+                    <h2 class="arrange-head">Arrange</h2>
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                        <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="arrange-grid">
+                                    <img src="./src/img/strawberry-a1.jpg" alt="" class="arrange-img">
+                                    <h2 class="arrange-inner-head">Text</h2>
+                                    <p class="arrange-inner-content">TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="arrange-grid">
+                                    <img src="./src/img/strawberry-a2.jpg" alt="" class="arrange-img">
+                                    <h2 class="arrange-inner-head">Text</h2>
+                                    <p class="arrange-inner-content">TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="arrange-grid">
+                                    <img src="./src/img/strawberry-a3.jpg" alt="" class="arrange-img">
+                                    <h2 class="arrange-inner-head">Text</h2>
+                                    <p class="arrange-inner-content">TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="arrange-grid">
+                                    <img src="./src/img/strawberry-a4.jpg" alt="" class="arrange-img">
+                                    <h2 class="arrange-inner-head">Text</h2>
+                                    <p class="arrange-inner-content">TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="arrange-grid">
+                                    <img src="./src/img/strawberry-a5.jpg" alt="" class="arrange-img">
+                                    <h2 class="arrange-inner-head">Text</h2>
+                                    <p class="arrange-inner-content">TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+        </main>
+        <section class="space"></section>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-left">
+                    <h2 class="footer-logo">
+                        Strawberry
+                    </h2>
+                </div>
+                <div class="footer-right">
+                    <ul class="footer-lists">
+                        <li class="footer-list">
+                            <a href="#" class="footer-link">
+                                Text
+                            </a>
+                        </li>
+                        <li class="footer-list">
+                            <a href="#" class="footer-link">
+                                Text
+                            </a>
+                        </li>
+                        <li class="footer-list">
+                            <a href="#" class="footer-link">
+                                Text
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright-inner">
+                <p class="copyright">
+                    &copy; Strawberry All Rights Reserved.
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/split-type"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js" integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js" integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="./src/js/script.js"></script>
+    </body>
+</html>
